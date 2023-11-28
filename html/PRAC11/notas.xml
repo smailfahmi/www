@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alumnos>
+  <alumno>
+    <nombre>raul</nombre>
+    <nota1>5</nota1>
+    <nota2>6</nota2>
+    <nota3>8</nota3>
+  </alumno>
+  <alumno>
+    <nombre>giorgi</nombre>
+    <nota1>4</nota1>
+    <nota2>5</nota2>
+    <nota3>6</nota3>
+  </alumno>
+  <alumno>
+    <nombre>manuel</nombre>
+    <nota1>5</nota1>
+    <nota2>7</nota2>
+    <nota3>3</nota3>
+  </alumno>
+  <alumno>
+    <nombre>guzman</nombre>
+    <nota1>3</nota1>
+    <nota2>6</nota2>
+    <nota3>5</nota3>
+  </alumno>
+  <alumno>
+    <nombre>alvaro</nombre>
+    <nota1>6</nota1>
+    <nota2>8</nota2>
+    <nota3>5</nota3>
+  </alumno>
+  <alumno>
+    <nombre>smail</nombre>
+    <nota1>3</nota1>
+    <nota2>5</nota2>
+    <nota3>8</nota3>
+  </alumno>
+</alumnos>

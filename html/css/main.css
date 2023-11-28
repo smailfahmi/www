@@ -1,0 +1,117 @@
+main {
+    display: flex;
+    box-sizing: border-box;
+    margin: 20px;
+    /* flex-grow: 1; */
+    height: 100%;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+.mainColumnaFuera {
+    display: flex;
+    width: 33%;
+    background-color: rgb(76, 77, 87);
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 1);
+    height: 100%;
+    margin: 5px;
+
+}
+
+.mainColumna1 {
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(76, 77, 87);
+    border-radius: 25px;
+    border: solid 4px rgb(145, 149, 172);
+    width: 25%;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.mainColumna2 {
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(76, 77, 87);
+    border-radius: 25px;
+    border: solid 4px rgb(145, 149, 172);
+    width: 25%;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.mainColumna3 {
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(76, 77, 87);
+    border-radius: 25px;
+    border: solid 4px rgb(145, 149, 172);
+    width: 25%;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.mainColumna4 {
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(76, 77, 87);
+    border-radius: 25px;
+    border: solid 4px rgb(145, 149, 172);
+    width: 25%;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.menuOculto {
+    display: none;
+}
+
+.listaTemario1 {
+    width: 98.11px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+.menuOculto a {
+    box-sizing: border-box;
+    margin: 2px;
+     padding: 5px;
+    text-align: center;
+
+
+}
+
+.mainColumna1:hover .menuOculto {
+    display: block;
+}
+
+.menuOculto a:hover {
+    color: rgb(0, 179, 255);
+    background-color: black;
+}

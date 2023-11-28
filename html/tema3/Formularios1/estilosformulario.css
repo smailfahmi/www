@@ -1,0 +1,30 @@
+.error{
+    color: rgb(139, 15, 15);
+    font-weight: bold;
+}
+
+form{
+    margin: 40px;
+    padding: 20px;
+    background-color: rgb(169, 169, 169);
+    width: fit-content;
+    border-radius: 13px;
+    color: black;
+}
+
+.resultadoform {
+    margin: 50px;
+    padding: 50px;
+    border-radius: 40px;
+   background: linear-gradient(red 0%, orange 25%, yellow 50%, green 75%, blue 100%);;
+}
+
+.resultados{
+    color: rgb(0, 57, 0);
+    font-weight: bold;
+}
+
+
+.imagensubida {
+    width: 200px;
+}

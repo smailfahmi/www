@@ -1,0 +1,1 @@
+Los Datos del cliente y los datos del pedido se generan en un array (uno para cada uno).

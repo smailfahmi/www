@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coches>
+    <coche id="1">
+        <marca>audi</marca>
+        <modelo>a3</modelo>
+    </coche>
+    <coche id="2">
+        <marca>bmw</marca>
+        <modelo>serie1</modelo>
+    </coche>
+    <coche id="3">
+        <marca>ford</marca>
+        <modelo>fiesta</modelo>
+    </coche>
+</coches>

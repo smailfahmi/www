@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<insrumentos>
+  <instrumento id="1">
+    <nombre>guitarra</nombre>
+    <familia>cuerda</familia>
+  </instrumento>
+  <instrumento id="2">
+    <nombre>violin</nombre>
+    <familia>cuerda</familia>
+  </instrumento>
+</insrumentos>

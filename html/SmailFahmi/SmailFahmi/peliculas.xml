@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<peliculas>
+  <pelicula id="1555AA-124">
+    <titulo>kdmc</titulo>
+    <director>dd</director>
+    <lanzamiento>1959</lanzamiento>
+    <actores>
+      <actor>hola</actor>
+      <actor/>
+    </actores>
+  </pelicula>
+  <pelicula id="1595AA-124">
+    <titulo>hola</titulo>
+    <director>dd</director>
+    <lanzamiento>1959</lanzamiento>
+    <actores>
+      <actor>juan</actor>
+      <actor>pepe</actor>
+      <actor/>
+    </actores>
+  </pelicula>
+<pelicula id="1595AA-126"><titulo>hola</titulo><director>dd</director><lanzamiento>1959</lanzamiento><actores><actor>juan</actor><actor>pepe</actor><actor/></actores></pelicula></peliculas>

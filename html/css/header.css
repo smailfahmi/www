@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(145, 149, 172);
+    min-width: 700px;
+    min-height: 900px;
+    flex-direction: column;
+}
+
+header {
+    margin: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 130px;
+    background-color: none(120, 123, 151);
+}
+
+.micabecera .opcion {
+    text-decoration: none;
+    box-sizing: border-box;
+    height: 50px;
+    color: rgb(0, 179, 255);
+
+}
+
+.micabecera {
+    background-color: rgb(76, 77, 87);
+    display: flex;
+    flex-grow: 1;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-sizing: border-box;
+    border-bottom: rgb(0, 179, 255)solid 4px;
+
+}
+
+
+
+.nombre,
+.curriculum {
+    box-sizing: border-box;
+    display: flex;
+    flex-grow: 1;
+    width: 130px;
+    height: 50px;
+    background-color: rgb(145, 149, 172);
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    border-radius: 25%;
+}
+
+.imagen {
+    box-sizing: border-box;
+    flex-grow: 1;
+    width: 110px;
+    height: 110px;
+    background-color: rgb(145, 149, 172);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    border-radius: 50%;
+
+}
+
+figure {
+
+    width: 100px;
+    height: 100px;
+}
+
+header .imagen img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.interior {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    flex-grow: 1;
+    margin: 4px;
+    background-color: rgb(76, 77, 87);
+    border-radius: 25%;
+    width: 100%;
+    border-bottom: rgb(0, 179, 255) solid 5px;
+}
+
+.opcion {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.menuOcultoCabe {
+    box-sizing: border-box;
+    background-color: rgb(76, 77, 87);
+    display: none;
+    flex-direction: column;
+    padding-bottom: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: solid 4px;
+    z-index: 1000;
+    margin: 0px;
+
+}
+
+.menuOcultoCabe .submenuOcultoCabe {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0px;
+}
+
+.submenuOcultoCabe li {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5px;
+
+    background-color: rgb(145, 149, 172);
+}
+
+.submenuOcultoCabe a {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+.opcion:hover .menuOcultoCabe {
+    display: block;
+}
+
+.opcion:hover .interior {
+    border-bottom: white solid 4px;
+    color: white;
+}
+
+.opcionImagen:hover .imagen {
+    border: white solid 4px;
+}
+
+.submenuOcultoCabe li:hover {
+    background-color: white;
+}
