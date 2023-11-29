@@ -31,4 +31,5 @@ try {
     // echo mysqli_connect_error();
     //probamos un par de errores y los guardamos en el switch
     mysqli_close($con);
+    
 }
